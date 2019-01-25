@@ -20,7 +20,6 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS, SCOPE_CURRENT_SKIN
 from Tools.LoadPixmap import LoadPixmap
 
 from time import time
-from boxbranding import getImageVersion
 import os
 
 language.addCallback(plugins.reloadPlugins)

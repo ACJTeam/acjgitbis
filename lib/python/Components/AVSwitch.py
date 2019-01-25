@@ -2,7 +2,6 @@ from config import config, ConfigSlider, ConfigSelection, ConfigYesNo, ConfigEna
 from enigma import eAVSwitch, eDVBVolumecontrol, getDesktop
 from SystemInfo import SystemInfo
 import os
-from boxbranding import getBoxType, getMachineBuild
 
 class AVSwitch:
 	def setInput(self, input):

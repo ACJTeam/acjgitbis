@@ -1,6 +1,5 @@
 # the implementation here is a bit crappy.
 import time
-from boxbranding import getBoxType
 from Directories import resolveFilename, SCOPE_CONFIG
 
 PERCENTAGE_START = 0

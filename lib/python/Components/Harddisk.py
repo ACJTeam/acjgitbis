@@ -3,7 +3,6 @@ import time
 from Tools.CList import CList
 from SystemInfo import SystemInfo
 from Components.Console import Console
-from boxbranding import getBoxType, getMachineBuild
 import Task
 
 def readFile(filename):

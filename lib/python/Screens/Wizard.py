@@ -13,7 +13,6 @@ from enigma import eTimer, eEnv
 
 from xml.sax import make_parser
 from xml.sax.handler import ContentHandler
-from boxbranding import getMachineBrand, getMachineName
 
 class WizardSummary(Screen):
 	def __init__(self, session, parent):

@@ -9,7 +9,6 @@ from Components.config import config, ConfigSubsection, ConfigSelection, ConfigS
 from Components.ConfigList import ConfigList, ConfigListScreen
 from Components.SystemInfo import SystemInfo
 from enigma import eTimer, eDVBCI_UI, eDVBCIInterfaces
-from boxbranding import getBoxType
 import Screens.Standby
 
 forceNotShowCiMessages = False

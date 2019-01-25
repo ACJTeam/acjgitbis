@@ -13,7 +13,6 @@ from enigma import eEnv, eEPGCache
 from Tools.Directories import *
 from os import path, makedirs, listdir, stat, rename, remove
 from datetime import date
-from boxbranding import getBoxType, getImageDistro
 
 config.plugins.configurationbackup = ConfigSubsection()
 config.plugins.configurationbackup.backuplocation = ConfigText(default = '/media/hdd/', visible_width = 50, fixed_size = False)

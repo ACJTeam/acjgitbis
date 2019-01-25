@@ -9,7 +9,6 @@ from Components.SystemInfo import SystemInfo
 
 from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 from Tools.HardwareInfo import HardwareInfo
-from boxbranding import getBoxType
 
 config.misc.showtestcard = ConfigBoolean(default = False)
 

@@ -14,7 +14,7 @@ from Components.SystemInfo import SystemInfo
 from GlobalActions import globalActionMap
 from enigma import eDVBVolumecontrol, eTimer, eDVBLocalTimeHandler, eServiceReference
 from Tools.HardwareInfo import HardwareInfo
-from boxbranding import getMachineBrand, getMachineName, getBoxType
+
 
 inStandby = None
 

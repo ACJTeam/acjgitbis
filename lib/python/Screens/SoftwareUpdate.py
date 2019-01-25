@@ -16,7 +16,6 @@ from Tools.Directories import fileExists
 from Tools.HardwareInfo import HardwareInfo
 from enigma import eTimer, getBoxType, eDVBDB
 from urllib2 import urlopen
-from boxbranding import getBoxType, getImageVersion, getMachineBuild, getImageType
 import socket
 
 class UpdatePlugin(Screen, ProtectedScreen):

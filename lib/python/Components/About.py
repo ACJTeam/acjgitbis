@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys, os, time
 from Tools.HardwareInfo import HardwareInfo
-from boxbranding import getBoxType, getMachineBuild
 
 def getVersionString():
 	return getImageVersionString()

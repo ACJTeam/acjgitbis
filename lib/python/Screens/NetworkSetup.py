@@ -17,7 +17,6 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS, SCOPE_CURRENT_SKIN
 from Tools.LoadPixmap import LoadPixmap
 from Plugins.Plugin import PluginDescriptor
 from enigma import eTimer
-from boxbranding import getBoxType
 
 class NetworkAdapterSelection(Screen,HelpableScreen):
 	def __init__(self, session):

@@ -16,7 +16,6 @@ from Tools.StbHardware import getFPVersion
 from enigma import eTimer, eLabel, eConsoleAppContainer
 
 from Components.GUIComponent import GUIComponent
-from boxbranding import getBoxType, getMachineBuild
 
 import skin, os
 
