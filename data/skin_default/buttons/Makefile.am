@@ -37,5 +37,5 @@ dist_install_DATA = \
 	key_next.png \
 	key_prev.png \
 	red-big.png \
-	yelow.png 
+	yellow.png 
 	
